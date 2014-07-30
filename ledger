@@ -1,0 +1,144 @@
+; -*- ledger -*-
+
+; Forderungen:Personen
+; Forderungen:Lieferanten
+; Verbindlichkeiten:Lieferanten
+; Verbindlichkeiten:Personen
+; Wareneingang:WDR4300
+; Wareneingang:WR842
+; Warenausgang:WDR4300
+; Warenausgang:WR842
+; Gewinn
+
+2014/07/18 Kauf WDR 4300
+	Wareneingang:WDR4300		15 "WDR4300" {=47.6 EUR}
+	Verbindlichkeiten:Personen:Christian
+
+2014/07/07 Kauf WDR 842
+	Wareneingang:WR842		20 "WR842" {=26.145 EUR}
+	Verbindlichkeiten:Personen:Christian
+
+
+2014/07/28 Verk.a.Zl WR842ND
+	Forderungen:Personen:Fleaz	27 EUR
+	Wareneingang:WR842		-1 "WR842"
+	; Payee: fleaz
+
+
+2014/07/28 Verk.a.Z WR842ND
+	Forderungen:Personen:Azrael	27 EUR
+	Wareneingang:WR842		-1 "WR842"
+	Gewinn
+	; Payee: azrael
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	30 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: dieter
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	(2 * 27 EUR)
+	Wareneingang:WR842	-2 "WR842"
+	Gewinn
+	; Payee: erik
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	27 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: schlafwandler
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	27 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: britta
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	27 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: wireworm
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	27 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: red_hood
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WR842	27 EUR
+	Wareneingang:WR842	-1 "WR842"
+	Gewinn
+	; Payee: goto
+
+
+2014/07/28 Verkauf WDR4300
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: red_hood
+
+2014/07/28 Verkauf WR842ND
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: thomas
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: waldteufel
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: phaidros
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: philipp
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: paul
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: erik
+
+2014/07/28 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Wareneingang:WDR4300	-1 "WDR4300"
+	Gewinn
+	; Payee: barfoos
+
+2014/07/28 Entnahme aus Erlös
+	Verbindlichkeiten:Personen:Christian	(4 * 48 EUR)
+	Umsatzerlöse:WDR4300
+
+2014/07/28 Entnahme aus Erlös
+	Verbindlichkeiten:Personen:Christian	(6 * 27 EUR)
+	Umsatzerlöse:WR842
+
+2014/07/28 Entnahme aus Erlös
+	Verbindlichkeiten:Personen:Ana	(4 * 48 EUR)
+	Umsatzerlöse:WDR4300
+
+2014/07/28 Entnahme aus Erlös
+	Verbindlichkeiten:Personen:Ana	(2 * 27 EUR)
+	Umsatzerlöse:WR842
+
+2014/07/30 Device Testbed
+	Testbed:Hoehle
+	Wareneingang:WDR4300	-1 "WDR4300"
+
