@@ -167,7 +167,20 @@
 	Wareneingang:WDR4300
 
 2014/08/04 Inventur
-	Bestand:WDR4300:Chrisian	2 "WDR4300"
+	Bestand:WDR4300:Christian	2 "WDR4300"
 	Wareneingang:WDR4300
+
+2014/08/06 Inventur
+	Bestand:WR842:Hoehle	0
+	Wareneingang:WR842	0
+	
+2014/08/06 Inventur
+	Bestand:WR842:Ana	1	
+	Wareneingang:WR842
+
+2014/08/06 Inventur
+	Bestand:WR842:Christian 8 
+	Wareneingang:WR842
+
 
 ;bitte in zukunft bei verkauf entsprechend buchen
