@@ -171,16 +171,27 @@
 	Wareneingang:WDR4300
 
 2014/08/06 Inventur
-	Bestand:WR842:Hoehle	0
-	Wareneingang:WR842	0
+	Bestand:WR842:Hoehle	0 "WR842"
+	Wareneingang:WR842
 	
 2014/08/06 Inventur
-	Bestand:WR842:Ana	1	
+	Bestand:WR842:Ana	1 "WR842"
 	Wareneingang:WR842
 
 2014/08/06 Inventur
-	Bestand:WR842:Christian 8 
+	Bestand:WR842:Christian  8 "WR842"
 	Wareneingang:WR842
 
 
 ;bitte in zukunft bei verkauf entsprechend buchen
+
+2014/08/07 Verkauf WDR4300 
+	Umsatzerlöse:WDR4300	48 EUR
+	Bestand:WDR4300:Hoehle	-1 "WDR4300"
+	Gewinn
+	; Payee: lukas 
+
+2014/08/04 Entnahme
+	Verbindlichkeiten:Personen:Ana 	48 EUR
+	Umsatzerlöse:WDR4300
+
