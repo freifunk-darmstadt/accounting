@@ -9,6 +9,7 @@
 ; Warenausgang:WDR4300
 ; Warenausgang:WR842
 ; Gewinn
+; Kasse
 
 2014/07/18 Kauf WDR 4300
 	Wareneingang:WDR4300		15 "WDR4300" {=47.6 EUR}
@@ -23,7 +24,6 @@
 	Forderungen:Personen:Fleaz	27 EUR
 	Wareneingang:WR842		-1 "WR842"
 	; Payee: fleaz
-
 
 2014/07/28 Verk.a.Z WR842ND
 	Forderungen:Personen:Azrael	27 EUR
@@ -77,7 +77,9 @@
 	Umsatzerlöse:WR842	27 EUR
 	Wareneingang:WR842	-1 "WR842"
 	Gewinn
-	; Payee: bernhard
+	; Payee: bodo
+
+;wdr4300 verkaeufe
 
 
 2014/07/28 Verkauf WDR4300
@@ -158,6 +160,8 @@
 	Umsatzerlöse:WR842
 
 
+; nichts mehr vor hier buchen
+
 2014/08/04 Inventur
 	Bestand:WDR4300:Ana 	2 "WDR4300"
 	Wareneingang:WDR4300
@@ -195,3 +199,32 @@
 	Verbindlichkeiten:Personen:Ana 	48 EUR
 	Umsatzerlöse:WDR4300
 
+2014/08/11 Spende
+	Kasse		50 EUR
+	Spende:Barbara
+	(Spendenquittungen:Ausstellen:Barbara)	-50 EUR
+
+2014/08/11 Depot Hoehle
+	Bestand:WR842:Hoehle	1 "WR842"
+	Bestand:WR842:Christian
+
+2014/08/07 Einzahlung Ana
+	Verbindlichkeiten:Personen:Christian	75 EUR
+	Verbindlichkeiten:Personen:Ana
+
+
+2014/08/17 Verkauf WR842
+	Umsatzerlöse:WR842	27 EUR
+	Bestand:WR842:Christian	-1 "WR842"
+	Gewinn
+	; Payee: gisele
+
+2014/08/17 Verkauf WR842
+	Umsatzerlöse:WR842	27 EUR
+	Bestand:WR842:Christian	-1 "WR842"
+	Gewinn
+	; Payee: sven
+
+2014/08/17 Entnahme
+	Verbindlichkeiten:Personen:Christian	54 EUR
+	Umsatzerlöse:WR842
