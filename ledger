@@ -228,3 +228,26 @@
 2014/08/17 Entnahme
 	Verbindlichkeiten:Personen:Christian	54 EUR
 	Umsatzerlöse:WR842
+
+2014/08/17 WDR4300 nach Hoehle
+	Bestand:WDR4300:Hoehle	1 "WDR4300"
+	Bestand:WDR4300:Ana
+
+2014/08/17 WR842 nach Hoehle
+	Bestand:WR842:Hoehle  2 "WR842"
+	Bestand:WR842:Christian  -1 "WR842"
+	Bestand:WR842:Ana	-1 "WR842"
+
+2014/08/17 WDR4300 Reparatur
+	Forderungen:Garantie:ZEG	1 "WDR4300"
+	Bestand:WDR4300:Ana
+
+2014/08/21 Verkauf
+	Umsatzerlöse:WDR4300	48 EUR
+	Bestand:WDR4300:Hoehle	-1 "WDR4300"
+	Gewinn
+	; Payee: francis
+
+2014/08/21 Entnahme
+	Forderungen:Personen:fleaz	48 EUR
+	Umsatzerlöse:WDR4300
