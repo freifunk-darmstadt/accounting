@@ -249,5 +249,21 @@
 	; Payee: francis
 
 2014/08/21 Entnahme
-	Forderungen:Personen:fleaz	48 EUR
+	Forderungen:Personen:Fleaz	48 EUR
 	Umsatzerlöse:WDR4300
+
+2014/09/03 Einzahlung
+	Verbindlichkeiten:Personen:Christian
+	Forderungen:Personen:Fleaz	-75 EUR
+
+2014/09/03 Verkauf
+	Bestand:WDR4300:Hoehle	-1 "WDR4300"
+	Umsatzerlöse:WDR4300	48EUR
+	Spende			2EUR
+	Gewinn
+	; Payee: Jürgen
+
+2014/09/03 Entnahme
+	Verbindlichkeiten:Personen:Christian	50EUR
+	Umsatzerlöse:WDR4300
+	
