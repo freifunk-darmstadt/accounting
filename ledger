@@ -267,3 +267,12 @@
 	Verbindlichkeiten:Personen:Christian	50EUR
 	Umsatzerlöse:WDR4300
 	
+2014/09/06 Verkauf
+	Bestand:WDR4300:Christian	-1 "WDR4300"
+	Umsatzerlöse:WDR4300	48EUR
+	Gewinn
+	;Payee mrmcd
+
+2014/09/06 Entnahme
+	Verbindlichkeiten:Personen:Christian	48EUR
+	Umsatzerlöse:WDR4300
