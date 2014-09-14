@@ -276,3 +276,15 @@
 2014/09/06 Entnahme
 	Verbindlichkeiten:Personen:Christian	48EUR
 	Umsatzerlöse:WDR4300
+
+2014/09/10 Einzahlung
+	Verbindlichkeiten:Personen:Christian
+	Forderungen:Personen:Azrael		-27EUR
+
+2014/09/14 Inventur
+	Bestand:WDR4300:Ana	1 "WDR4300"
+	Bestand:WDR4300:Christian
+
+2014/09/14 Inventur
+	Bestand:WR842:Ana	3 "WR842"
+	Bestand:WR842:Christian 
