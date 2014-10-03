@@ -88,7 +88,7 @@
 	Gewinn
 	; Payee: red_hood
 
-2014/07/28 Verkauf WR842ND
+2014/07/28 Verkauf WDR4300
 	Umsatzerlöse:WDR4300	48 EUR
 	Wareneingang:WDR4300	-1 "WDR4300"
 	Gewinn
@@ -293,12 +293,16 @@
 	Bestand:WR842:Hoehle	4 "WR842"
 	Bestand:WR842:Christian
 
-2014/10/01 Verkauf
-	Bestand:WR842:Hoehle  -1 "WR842"
+2014/10/01 Verkauf 842ND
 	Umsatzerlöse:WR842  27EUR
+	Bestand:WR842:Hoehle  -1 "WR842"
 	Gewinn
 	; Payee: Clemens
 
-; hoehle: 4?
-; ana: ?
-; christian: 2
+2014/10/04 Ruecknahme Bestand
+	Testbed:Hoehle  -1 "WDR4300"
+	Bestand:WDR4300:Hoehle
+
+; hoehle: ?
+; ana: 3
+; christian: 1
