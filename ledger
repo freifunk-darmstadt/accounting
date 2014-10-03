@@ -292,3 +292,13 @@
 2014/09/14 Inventur
 	Bestand:WR842:Hoehle	4 "WR842"
 	Bestand:WR842:Christian
+
+2014/10/01 Verkauf
+	Bestand:WR842:Hoehle  -1 "WR842"
+	Umsatzerlöse:WR842  27EUR
+	Gewinn
+	; Payee: Clemens
+
+; hoehle: 4?
+; ana: ?
+; christian: 2
