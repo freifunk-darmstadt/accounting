@@ -303,6 +303,15 @@
 	Testbed:Hoehle  -1 "WDR4300"
 	Bestand:WDR4300:Hoehle
 
-; hoehle: ?
+2014/10/06 Inventur
+	Bestand:WR842:Hoehle  -3 "WR842"
+	Bestand:WR842:Christian
+
+2014/10/06 Inventur
+	Bestand:WR842:Christian  1 "WR842"
+	Ausgleichskonto:WR842
+
+
+; hoehle: 3
 ; ana: 3
 ; christian: 1
