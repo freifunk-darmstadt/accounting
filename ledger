@@ -318,7 +318,9 @@
 	Verbindlichkeiten:Personen:Christian	27EUR
 	; Payee: From Ana
 
-
-; hoehle: 3
-; ana: 1
-; christian: 2
+2014/10/17 Verkauf
+	Bestand:WR842:Hoehle	-1 "WR842"
+	Verkauft:WR842		1 "WR842"
+	Einnahmen:Verkauf:WR842		-27EUR
+	Verbindlichkeiten:Personen:Christian	27EUR
+	; Payee: 64285-spontan
