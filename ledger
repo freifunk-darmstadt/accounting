@@ -322,5 +322,5 @@
 	Bestand:WR842:Hoehle	-1 "WR842"
 	Verkauft:WR842		1 "WR842"
 	Einnahmen:Verkauf:WR842		-27EUR
-	Verbindlichkeiten:Personen:Christian	27EUR
+	Kasse:Christian			27EUR
 	; Payee: 64285-spontan
