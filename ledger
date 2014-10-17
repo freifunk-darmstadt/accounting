@@ -304,14 +304,21 @@
 	Bestand:WDR4300:Hoehle
 
 2014/10/06 Inventur
-	Bestand:WR842:Hoehle  -3 "WR842"
+	Bestand:WR842:Hoehle  -4 "WR842"
 	Bestand:WR842:Christian
 
 2014/10/06 Inventur
 	Bestand:WR842:Christian  1 "WR842"
 	Ausgleichskonto:WR842
 
+2014/10/17 Verkauf
+	Bestand:WR842:Ana	-1 "WR842"
+	Verkauft:WR842		1 "WR842"
+	Einnahmen:Verkauf:WR842		-27EUR
+	Verbindlichkeiten:Personen:Christian	27EUR
+	; Payee: From Ana
+
 
 ; hoehle: 3
-; ana: 3
-; christian: 1
+; ana: 1
+; christian: 2
