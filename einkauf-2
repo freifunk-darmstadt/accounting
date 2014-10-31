@@ -1,0 +1,22 @@
+2014/10/30 Kauf
+	Wareneingang:WR1043	-5 "WR1043"
+	Bestand:WR1043:Christian	5 "WR1043"
+	Wareneingang:WR841	-10 "WR841"
+	Bestand:WR841:Christian  10 "WR841"
+	Verbindlichkeiten:Personen:Christian  -329.84 EUR
+	Zahlung:Lieferanten:kepcom  329.84 EUR
+
+2014/10/30 Kauf Psyke
+	Bestand:WR1043:Christian	-1 "WR1043"
+	Verkauft:WR1043  		1 "WR1043"
+	Forderungen:Personen:Psyke	- 38 EUR
+	Einnahmen:Verkauf:WR1043	38 EUR
+
+2014/10/31 Transfer
+	Bestand:WR841:Christian	-2 "WR841"
+	Bestand:WR841:Hoehle	2 "WR841"
+	Bestand:WR842:Christian  -1 "WR842"
+	Bestand:WR842:Hoehle  1 "WR842"
+
+
+
