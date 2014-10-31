@@ -6,17 +6,13 @@
 	Verbindlichkeiten:Personen:Christian  -329.84 EUR
 	Zahlung:Lieferanten:kepcom  329.84 EUR
 
-2014/10/30 Kauf Psyke
+2014/10/30 Verkauf Psyke
 	Bestand:WR1043:Christian	-1 "WR1043"
 	Verkauft:WR1043  		1 "WR1043"
-	Forderungen:Personen:Psyke	- 38 EUR
-	Einnahmen:Verkauf:WR1043	38 EUR
+	Forderungen:Personen:Psyke	-38 EUR
+	Einnahmen::WR1043:Christian	38 EUR
+	;Payee: psyke
 
 2014/10/31 Transfer
 	Bestand:WR841:Christian	-2 "WR841"
 	Bestand:WR841:Hoehle	2 "WR841"
-	Bestand:WR842:Christian  -1 "WR842"
-	Bestand:WR842:Hoehle  1 "WR842"
-
-
-
