@@ -10,9 +10,19 @@
 	Bestand:WR1043:Christian	-1 "WR1043"
 	Verkauft:WR1043  		1 "WR1043"
 	Forderungen:Personen:Psyke	-38 EUR
-	Einnahmen::WR1043:Christian	38 EUR
+	Einnahmen:Christian:WR1043	38 EUR
 	;Payee: psyke
 
 2014/10/31 Transfer
 	Bestand:WR841:Christian	-2 "WR841"
 	Bestand:WR841:Hoehle	2 "WR841"
+
+2014/10/31 Verkauf Tabz
+	Bestand:WR841:Christian  -1 "WR841"
+	Verkauft:WR841	1 "WR841"
+	Einnahmen:Christian:WR841  14 EUR
+	Bank:Christian  -14EUR
+
+
+
+
