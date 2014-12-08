@@ -28,3 +28,32 @@
 	Bestand:WR841:Christian  -1 "WR841"
 	Bestand:WR1043:Hoehle  2 "WR1043"
 	Bestand:WR841:Hoehle  1 "WR841"
+
+2014/11/12 Verkauf
+	Bestand:WR841:Hoehle	-1 "WR841"
+	Verkauft:WR841		 1 "WR841"
+	Einnahmen:Christian:WR841	 14 EUR
+	Bank:Christian			-14 EUR
+
+2014/11/12 Verkauf
+	Bestand:WR1043:Hoehle	-2 "WR1043"
+	Verkauft:WR1043		 2 "WR1043"
+	Einnahmen:Christian:WR1043	 76 EUR
+	Bank:Christian 			-76 EUR
+
+2014/12/1 Transfer
+	Bestand:WR1043:Christian 	-1 "WR1043"
+	Bestand:WR1043:Ana		-1 "WR1043"
+	Bestand:WR1043:Hoehle		 2 "WR1043"
+
+2014/11/03 Bezahlung Psyke
+	Forderungen:Personen:Psyke	38 EUR
+	Bank:Christian
+
+2014/12/08 Inventur
+	Bestand:WR1043:Christian	-1 "WR1043"
+	Bestand:WR1043:Ana		 1 "WR1043"
+	Bestand:WR841:Christian		-6 "WR841"
+	Bestand:WR841:Ana		 5 "WR841"
+	Bestand:WR841:Differenz		 1 "WR841"
+
