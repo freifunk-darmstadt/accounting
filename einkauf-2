@@ -76,4 +76,12 @@
 	Bestand:WR841:Hoehle 	-1 "WR841"
 	Bestand:WR841:Flokli  	1 "WR841"
 
+2014/12/24 Verkauf
+	Bestand:WR1043:Hoehle	-1 "WR1043"
+	Verkauft:WR1043		 1 "WR1043"
+	Einnahmen:Christian:WR1043	 38 EUR
+	Bank:Christian 			-38 EUR
 
+2014/12/24 Verkauf
+	Forderungen:Fleaz	-30 EUR
+	Einnahmen:Christian:Vocore 30 EUR
