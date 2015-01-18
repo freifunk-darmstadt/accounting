@@ -82,6 +82,28 @@
 	Einnahmen:Christian:WR1043	 38 EUR
 	Bank:Christian 			-38 EUR
 
-2014/12/24 Verkauf
-	Forderungen:Fleaz	-30 EUR
-	Einnahmen:Christian:Vocore 30 EUR
+2014/11/12 Verkauf
+	Bestand:WR841:Flokli	-1 "WR841"
+	Verkauft:WR841		 1 "WR841"
+	Einnahmen:Christian:WR841	 14 EUR
+	Bank:Christian			-27 EUR
+	Verbindlichkeiten:Flokli	 13 EUR
+
+2015/01/18 Verkauf
+	Bestand:WR841:Hoehle	-1 "WR841"
+	Bestand:WR841:Ana	-1 "WR841"
+	Verkauft:WR841		 2 "WR841"
+	Einnahmen:Christian:WR841	 28 EUR
+	Forderungen:Ana			-28 EUR
+
+
+2015/01/18 Umbuchung
+	Verbindlichkeiten:Flokli	-13 EUR
+	Bank:Christian			 13 EUR
+
+2015/01/18 Umbuchung
+	Forderungen:Denon	 38 EUR
+	Bank:Christian		-38 EUR
+
+
+
