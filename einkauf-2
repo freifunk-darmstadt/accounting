@@ -105,5 +105,21 @@
 	Forderungen:Denon	 38 EUR
 	Bank:Christian		-38 EUR
 
+2015/02/23 Verkauf
+	Bestand:WR841:Hoehle	-1 "WR841"
+	Verkauft:WR841		 1 "WR841"
+	Einnahmen:Christian:WR841	 14 EUR
+	Forderung:Martin		-14 EUR
 
+2015/02/23 Verkauf
+	Bestand:WR841:Ana	-2 "WR841"
+	Verkauft:WR841		 2 "WR841"
+	Einnahmen:Christian:WR841	 28 EUR
+	Bank:Christian			-28 EUR
+
+2015/02/23 Verkauf
+	Bestand:WR841:Ana	-1 "WR841"
+	Verkauf:WR841		 1 "WR841"
+	Einnahmen:Christian:WR841	14 EUR
+	Bank:Christian			-14 EUR
 
