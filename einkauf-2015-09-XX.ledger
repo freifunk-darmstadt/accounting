@@ -1,0 +1,18 @@
+2015/08/21 Einkauf Router
+	Bestand:WR841:Hoehle  4
+	Bestand:WR1043:Hoehle  3
+	Lieferung:Notebooksbilliger:Router
+
+2015/08/21 Verkauf WR841
+	Bestand:WR841:Hoehle  -1
+	Verkauft:WR841
+	; :Verkauft: megfault
+	; :Beglichen: ja
+
+2015/08/21 Verkauf WR841
+	Bestand:WR841:Hoehle  -1
+	Verkauft:WR841
+	; :Verkauft: redhood
+	; :Beglichen: ja
+
+# TODO 2015/09/24 Verkauf lt. Umschlag (aus Gedächtnis)
