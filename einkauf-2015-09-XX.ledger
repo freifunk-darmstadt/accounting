@@ -9,10 +9,14 @@
 	; :Verkauft: megfault
 	; :Beglichen: ja
 
-2015/08/21 Verkauf WR841
-	Bestand:WR841:Hoehle  -1
-	Verkauft:WR841
+2015/08/21 Verkauf WR1043
+	Bestand:WR1043:Hoehle  -1
+	Verkauft:WR1043
 	; :Verkauft: redhood
 	; :Beglichen: ja
 
-# TODO 2015/09/24 Verkauf lt. Umschlag (aus Gedächtnis)
+2015/08/21 Verkauf WR841
+	Bestand:WR841:Hoehle  -3
+	Verkauft:WR841
+	; :Verkauft: redhood
+	; :Beglichen: ja
