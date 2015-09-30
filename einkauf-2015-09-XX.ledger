@@ -20,3 +20,9 @@
 	Verkauft:WR841
 	; :Verkauft: redhood
 	; :Beglichen: ja
+
+2015/09/28 Verkauf WR1043
+	Bestand:WR841:Hoehle  -1
+	Verkauf:WR841
+	; :Verkauft: einalex
+	; :Beglichen: nein
